@@ -1,24 +1,12 @@
-# d3-topo
+### d3+svg的拓扑图可视化展示
 
-## Project setup
-```
-npm install
-```
+### 预览地址
+[在线地址](https://d3-topo-rmq767.vercel.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 暂时的实现功能
+> - 节点信息图片展示
+> - 连线信息展示
+> - 连线动画效果
+> - 节点拖拽
+> - 缩放
+> - 移入节点展示更多信息
