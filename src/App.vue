@@ -210,6 +210,14 @@ export default {
       },
     };
   },
+  watch: {
+    topoData: {
+      handler() {
+        this.topo.reRender();
+      },
+      deep: true,
+    },
+  },
   mounted() {
     this.width = this.$refs.app.clientWidth;
     this.height = this.$refs.app.clientHeight;
